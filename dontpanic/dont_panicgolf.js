@@ -1,0 +1,1 @@
+e=[,,,v,u,,,o]=(r=()=>readline().split(' '))();for(;o--;[i,j]=r(),(e[i]=j));b="BLOCK",w="WAIT";while(1)[f,p,d]=r(),[f,p]=[+f,+p],a="<>"[~~(d[0]=="L")],eval(`console.log(v==f&&[w,b][~~(u${a}p)]||[w,b][~~(e[f]${a}p)])`)
